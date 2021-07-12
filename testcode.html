@@ -23,7 +23,7 @@
 
         <fieldset>
         <legend>F-PLAZA HOSTEL</legend>
-        <input type="text" placeholder="NAME"><br/>
+        <input type="text" placeholder="NAME" contenteditable="true" spellcheck="true"><br/>
        
         <select>
                <option>1</option>
@@ -43,21 +43,27 @@
         <input type="text" placeholder="LEVEL"><br/>
        
         GENDER:<input type="radio" value="male" name="GENDER">male<br/>
-               <input type="radio" value="female" name="GENDER">female<br/>
+               &nbsp; &nbsp;  &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<input type="radio" value="female" name="GENDER">female<br/>
        
                <input type="text" placeholder="STUDENT ID"><br/>
                
                <input type="password" placeholder="PASSWORD"><br/>
         
         </fieldset>
-       
-        <a href="login.html">login</a><br/>
+       <script>
+           function bedman()
+           {
+               alert("What is your real name?");
+           }
+
+           
+
+       </script>
+        <a href="login.html" onclick="bedman();">login</a><br/>
 
         <p><h1><marquee>MONA MOBL333333</marquee></h1></p>
 
-        i7tsutrjfgerystrd
-        wedfsdfsrt
-        hdf
+        
         <div style="color:burlywood"> mabr33333</div>
         <div style="color:burlywood"> mabr33333</div>
 
@@ -80,5 +86,30 @@
         <div style="color:darkmagenta"> mabr33333</div><br/>
 
         <div style="color:mediumvioletred">mabr33333</div><br/>
+
+        <script>
+            function name(first, last)
+            {
+                alert("firstname is"+" "+ first +" " + "surname is" +" "+ last );
+            }
+
+            name("Justice","Owusu");
+        </script>
+        
+<script>
+   var p= prompt("Do you like this page?"," ");
+   if(p)
+   {
+       alert("thanks");
+   }
+   else 
+   {
+      alert("Alright");
+   }
+
+</script>
+
+
+        
 </body>
 </html>
