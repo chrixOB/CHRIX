@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex box trial</title>
+<style>
+    ul{
+        display: flex;
+        flex-direction: row;
+        flex-wrap:wrap;
+        width: 2000px;
+    }
+    h1{
+        background: wheat;
+    }
+
+    article{
+        padding: 20px;
+        margin: 20px;
+        background: skyblue;
+    }
+
+    li{
+        padding: 20px;
+        margin: 20px;
+        background:yellow;
+        display: inline-flex;
+  align-items: center;
+  justify-content: space-around;
+    }
+    
+    body{
+        margin: 0;
+        width: 500px;
+        height: 500px;
+    }
+
+    section{
+        display: flex;
+        flex-direction: row;
+    }
+</style>
+
+
+
+
+
+</head>
+
+<body>
+    <header>
+        <h1>THESE ARE FLEX BOXES</h1>
+    </header>
+<ul>
+    <span>
+    <li><h3>first</h3></li>
+    <li><h3>second</h3></li>
+    <li><h3>third</h3></li>
+    <li><h3>Fourth</h3></li>
+    </span>
+</ul>    
+
+<section>
+    <span>
+    <article>
+       <p> This is my first article. check it out</p>
+    </article>
+    <article>
+        <p>This is my second article. cool right?</p>
+    </article>
+    <article>
+        <p>This is my third and final article. I'm done</p>
+    </article>
+    </span>
+</section>
+</body>
+</html>
